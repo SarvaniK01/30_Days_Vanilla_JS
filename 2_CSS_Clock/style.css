@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.clock{
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 15px solid gray;
+}
+
+.hand{
+    background-color:black;
+    height: 0.3rem;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    /* transition: all ease-in-out; */
+}
+
+.seconds-hand{
+    height: 0.3rem;
+    width: 9rem;
+    left: 5%;
+}
+
+.minutes-hand{
+    height: 0.3rem;
+    width: 6rem;
+    left: 20%;
+}
+
+.hours-hand{
+    height: 0.3rem;
+    width: 4rem;
+    left: 30%;
+}
+
+.pin{
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    border: 4px solid gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.twelve{
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+}
+
+.six{
+    font-size: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%,-50%);
+}
+
+.three{
+    font-size: 2rem;
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.nine{
+    font-size: 2rem;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
